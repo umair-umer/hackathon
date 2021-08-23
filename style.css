@@ -1,0 +1,299 @@
+.logo {
+    color: white !important;
+}
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar ul{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  background: #000;
+  color: white;
+  
+}
+.navbar li{
+  list-style: none;
+  padding: 1rem;
+}
+.navbar a{
+  text-decoration: none;
+  color: white;
+  font-size:20px;
+}
+.nav-logo{
+  flex: 1;
+  font-size: 2rem;
+  
+}
+.nav-links a:hover{
+  background: #fdcb6e;
+  color: rgb(14, 13, 13);
+  border-radius: 20%;
+  
+  
+}
+.nav-links:hover a{
+  color: rgb(139, 139, 139);
+}
+.toogle{
+  display: none;
+}
+.sig a  {
+background: #fdcb6e;
+font-size: 30px;
+border-radius: 20%;
+color: rgb(14, 13, 13);
+font-weight: 700;
+
+
+}
+
+@media (max-width:600px){
+  .navbar ul{
+      flex-wrap: wrap;
+  }
+  .toogle{
+      display:block;
+      cursor: pointer;
+      
+  }
+  .nav-links{
+      display:none;
+      width: 100%;
+      text-align: center;
+  }
+  .sig {
+      display:none;
+      width: 100%;
+      text-align: center;
+      
+    }
+  .active{
+      display: block;
+  }
+  
+}
+@media (max-width:314px){
+  .navbar ul{
+      width: 100%;
+      flex-wrap: wrap;
+  }
+  .toogle{
+      display:block;
+      cursor: pointer;
+      
+  }
+  .nav-links{
+      display:none;
+      width: 100%;
+      text-align: center;
+  }
+  .active{
+      display: block;
+  }
+}
+
+.imp-btn{
+  margin-bottom: 360px !important; 
+}
+
+.imp-btn2{
+  background-color: black !important;
+}
+
+
+
+
+/* customer sign up */
+
+.logo {
+  color: white !important;
+}
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+width: 100%;
+padding: 15px;
+margin: 5px 0 22px 0;
+display: inline-block;
+border: none;
+background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+background-color: #ddd;
+outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+border: 1px solid #f1f1f1;
+margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+background-color: #04AA6D;
+color: white;
+padding: 16px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 100%;
+opacity: 0.9;
+}
+
+.registerbtn:hover {
+opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+background-color: #f1f1f1;
+text-align: center;
+}
+
+.logo2{
+  margin-left: 30%;
+  font-size: 400% !important;
+}
+
+.btn-sign{
+  background-color: black !important;
+}
+
+
+
+
+
+
+
+
+
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.btnnn{
+  background: #000;
+  color: white;
+
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x) * -.5);
+  margin-left: calc(var(--bs-gutter-x) * -.5);
+  margin-top: 14rem;
+  margin-left: 7rem;
+}
+
+.logo2{
+  margin-left: 30%;
+  font-size: 400% !important;
+}
+
+.btn-sign{
+  background-color: black !important;
+}
+
+.registerbtn {
+  background-color: #0d0d0d;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 2rem;
+}
